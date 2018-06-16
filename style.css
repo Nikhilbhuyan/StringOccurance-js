@@ -47,17 +47,17 @@ p{
   font-size: 20px;
   text-align: center;
   background: none;
-  width:50%;
+  width:40%;
   height:50px;
-  margin-left:380px;
+  margin-left:400px;
   border-radius:0px;
-  padding-top:5px;
+  padding-top:17px;
 }
 p:hover{
   border-radius:30px;
   background: #00eb84;
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   transition:font-size 0.4s;
   transition-timing-function:ease-out;
 }
