@@ -12,9 +12,9 @@ var run = function(){
   var occurance = 0;
   input = input.toLowerCase();
   var data = input.split(" ");
-  var len = data.length;
-  for( i = 0; i < len; i++){
-    for(j = 0; j < len; j++){
+
+  for( i = 0; i < data.length; i++){
+    for(j = 0; j < data.length; j++){
       if(data[i] == data[j]){
         occurance += 1;
         if (occurance > 1){
